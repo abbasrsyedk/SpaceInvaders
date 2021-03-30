@@ -82,7 +82,7 @@ def showScore(x,y):
 #gameover Font
 game_over_font = pygame.font.Font("stocky.ttf", 70)
 def game_over_text():
-    game_over = game_over_font.render("GAYM OVOR",True, (255,255,0))
+    game_over = game_over_font.render("GAME OVER",True, (255,255,0))
     screen.blit(game_over,(200,250))
 #game loop
 running = True
